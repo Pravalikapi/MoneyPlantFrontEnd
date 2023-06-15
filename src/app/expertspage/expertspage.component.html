@@ -1,0 +1,65 @@
+
+   
+    <!-- <div class="card"> 
+      <div *ngFor="let expert of allExpert">
+          <table>
+              <tr>
+                  <td><img src="/assets/images/{{expert.imageName}}" alt="Expert image" width="120px"
+                          height="100px"> </td>
+                  <td>
+
+                      <h3 class="card-header" style="text-transform: capitalize;">{{expert.expertName}}</h3>
+                      <div class="card-body">
+                          <h5 class="card-title" style="text-transform: capitalize;">specialization:{{expert.specialization}}</h5>
+                          
+                          <b>Experience:</b>{{expert.experience}}<br />
+                          
+                          <b>Email:</b>{{expert.emailId}}<br />
+                          <b>Phone:</b>{{expert.phoneNumber}}<br />
+                          
+                          
+                      
+                      
+                          <button  type="button" routerLink="/popupform">Connect Now</button>
+
+                          
+                        </div>
+                        </td>
+                             
+                           </tr> 
+                          
+                  
+                  </table>
+                  </div>
+                  </div>
+                          
+ -->
+
+
+ <div class="container">
+ <div class="card">
+    <div *ngFor="let expert of allExpert" class="expert-card">
+      <div class="card-image">
+        <img [src]="'/assets/images/' + expert.imageName" alt="Expert image" class="circular-image">
+      </div>
+      <div class="card-details">
+        <h3 class="card-header"><b>{{ expert.expertName }}</b></h3>
+        <div class="card-body">
+          <h5 class="card-title">Specialization: {{ expert.specialization }}</h5>
+          <p><b>Experience:</b> {{ expert.experience }} Years</p>
+          <p><b>Email:</b> {{ expert.emailId }}</p>
+          <p><b>Phone:</b> {{ expert.phoneNumber }}</p>
+          <button type="button" routerLink="/popupform">Connect Now</button>
+
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+                          
+
+
+

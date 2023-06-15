@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    }
+    
+    .container {
+    text-align: center;
+    }
+    
+    .box {
+    width: 300px;
+    height: 100px;
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    
+    .curve-box {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    }
+    
+    .text {
+    padding: 10px;
+    font-size: 18px;
+    }
+    
+    .left-text {
+    float: left;
+    margin-right: 10px;
+    }
+    
+    .button {
+    float: right;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    }

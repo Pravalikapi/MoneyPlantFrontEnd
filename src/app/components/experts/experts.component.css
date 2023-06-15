@@ -1,0 +1,173 @@
+h3, .search-container{
+    text-align: center;
+}
+.search-button{
+    background-color: rgb(17, 180, 17);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-left:2px ;
+   
+}
+.search-input{
+    text-align: center;
+
+    
+
+}
+.growth{
+    padding: 50px 0px 0px 100px;
+    /* padding-left: 100px; */
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 230px;
+    width: 90%;
+    background-color: rgb(39, 98, 122);
+    color: white;
+}
+img{
+    background-color: blue;
+    margin-top: -180px;
+    height: 200px;
+    width: 200px;
+    margin-left: 600px;
+}
+.para{
+    color: rgb(43, 156, 226);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.viewallexperts{
+    background-color: rgb(17, 180, 17);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin-left:10px ;
+
+   
+}
+.knowmore{
+    background-color: rgb(17, 180, 17);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin-left:10px ;
+
+}
+.button {
+    text-align: center;
+    margin: 10px;
+    }
+    
+    .button img {
+    display: block;
+    width: 100px; /* adjust as needed */
+    height: 100px; /* adjust as needed */
+    border-radius: 50%;
+    }
+    
+    .button p {
+    margin-top: 10px;
+    }
+    
+    .button-container:before,
+    .button-container:after {
+    content: "";
+    flex: 1;
+    }
+    
+    .button-container:before {
+    margin-right: 10px;
+    }
+    
+    .button-container:after {
+    margin-left: 10px;
+    }
+
+    .img{
+       width: 32%;
+       position: relative;
+       top: 80px;
+       float: left;
+       margin-right: 20px;
+       right: 140px;
+
+    }
+    .img:hover{
+transform: scale(1.1);
+    }
+    .img2{
+        width: 32%;
+        position: relative;
+        top: 80px;
+        float: left;
+        margin-right: 20px;
+        right: 400px;
+ 
+     }
+     .img3{
+        width: 32%;
+        position: relative;
+        top: 60px;
+        float: left;
+        margin-right: 20px;
+        left: 190px;
+     }
+     .img4{
+        width: 32%;
+        position: relative;
+        top: 60px;
+        float: left;
+        margin-right: 20px;
+        right: 70px;
+     }
+     hr{
+        border: none;
+        border-top: 2px solid rgb(154, 151, 151);
+        margin-top: 250px;
+     }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 20px;
+        }
+        
+        .left-align {
+        text-align: left;
+        background-color: white;
+        padding: 20px;
+        margin-left: 50px;
+        }
+        
+        .center-align {
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        } 
+        .btn{
+            background-color: rgb(17, 55, 180);
+            color: white;
+            border: none;
+            width: 150px;
+            height: 35px;
+            margin-left:10px ;
+          
+        }
+        .left-align h2 {
+         color: rgb(18, 18, 220);
+        font-weight: bold;
+        }
+        .left-align h5{
+            color: rgb(23, 101, 135);
+            font-weight:bold;
+        } 
+        .center-align h5{
+            color: rgb(20, 86, 114);
+            font-weight: bold;
+        } 
+        
+        
+          
